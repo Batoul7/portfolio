@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Roboto", serif;
+}
+.shadow-text {
+    color: #0FD844; 
+    text-shadow: 
+      0 0 10px #0FD844;
+    transition: text-shadow 0.3s ease-in-out;
+  }
