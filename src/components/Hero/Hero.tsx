@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import me from '../../assets/me2.jpg'
+import me from '../../assets/me.jpg'
 import Modal from "../Modal/Modal";
 import { useEffect, useState } from "react";
 import { SocialLinks } from "../../Data/SocialLinks";
@@ -71,7 +71,7 @@ const Hero = () => {
                     ))}
                 </div>
                 <div data-aos="fade-left" className="sm:flex-1 lg:flex-0 flex justify-center items-center  h-full ">
-                    <img src={me} alt="" className="w-[200px] lg:w-[300px] xl:w-[400px] rounded-full shadow-myshadow object-cover"/>
+                    <img src={me} alt="" className="w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] rounded-full shadow-myshadow object-cover"/>
                 </div>
             </div>  
         </div>

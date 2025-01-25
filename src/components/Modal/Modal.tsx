@@ -27,7 +27,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, description, item
                         ))}
                     </ul>
                 </div>
-                <div className='flex items-center justify-between'>
+                <div className='flex items-center justify-between gap-3'>
                 {link && <a href="mailto:batoulab268@gmail.com" className='underline text-my-secondery'>Click here to contact me via email</a>}
                 <button
                     onClick={onClose}
