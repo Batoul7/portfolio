@@ -1,10 +1,11 @@
 import { faDownload} from '@fortawesome/free-solid-svg-icons'
-import me from '../../assets/me2.jpg' 
+import me from '../../assets/me.jpg' 
 import Title from '../Title/Title'
 import Box from '../Box/Box'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BoxData } from '../../Data/BoxData'
-import Cv from "/src/assets/BATOUL ALIBRAHEM.pdf"
+import cv from "/src/assets/BATOUL ALIBRAHEM.pdf"
+
 const About = () => {
 
 
@@ -21,7 +22,7 @@ const About = () => {
                 </div>
                 <p  data-aos="fade-up" >I am a passionate front-end developer specializing in creating engaging user experiences. I focus on transforming ideas into dynamic applications with an emphasis on responsive design and optimal performance. I am eager to take on new projects and deliver innovative solutions that meet user needs.
                 </p>
-                <a  data-aos="fade-up"  href={Cv} download={"batoul_Alibraheem.pdf"}
+                <a  data-aos="fade-up"  href={cv} download="batoul_Alibraheem.pdf"
                   className="py-1 px-4 shadow-btnshadow rounded-lg text-base md:text-lg font-medium font-poppins cursor-pointer
                             flex gap-3 items-center w-fit justify-center mx-auto sm:mx-0 hover:bg-my-secondery">
                   Download CV
