@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import me from '../../assets/me.jpg'
+import me from '../../assets/me.webp'
 import Modal from "../Modal/Modal";
 import { useEffect, useState } from "react";
 import { SocialLinks } from "../../Data/SocialLinks";

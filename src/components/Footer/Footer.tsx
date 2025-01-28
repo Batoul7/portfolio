@@ -15,7 +15,7 @@ export default function Footer() {
                 ))}
             </div>
         </div>
-        <span className="block border-t border-my-secondery border-opacity-70 pt-5 text-center" >Designed and Developed By <span className="block sm:inline text-my-secondery">Eng.Batoul Alibraheem</span> © 2025</span>
+        <span className="block border-t border-my-secondery border-opacity-70 pt-5 text-center" >Designed and Developed By <span className="block sm:inline text-my-secondery">Eng.Batoul Alibrahem</span> © 2025</span>
     </section>
   )
 }

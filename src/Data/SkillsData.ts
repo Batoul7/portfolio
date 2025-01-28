@@ -9,7 +9,7 @@ export const TechSkillsData = [
 
 export const ProSkillsData = [
     { name: "Team Work", percentage: 90 },
-    { name: "Creativity", percentage: 80 },
-    { name: "Communication", percentage: 80 },
-    { name: "Project Management", percentage: 60 },
+    { name: "Creativity", percentage: 75 },
+    { name: "Communication", percentage: 85 },
+    { name: "Project Management", percentage: 70 },
   ];

@@ -26,6 +26,7 @@ export default {
       animation: {
         spinSlow: 'spin 1.5s linear infinite',
         spinReverse: 'spin-reverse 1s linear infinite', 
+        moveRight: 'moveRight 1s infinite',
       },
       keyframes: {
         spin: {
@@ -35,6 +36,10 @@ export default {
         'spin-reverse': {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(-360deg)' },
+        },
+        moveRight: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(5px)' },
         },
       },
     },

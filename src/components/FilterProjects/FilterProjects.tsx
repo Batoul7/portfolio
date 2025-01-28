@@ -20,8 +20,8 @@ const FilterProjects: React.FC = () => {
         {filteredProjects.map((project) => (
           <div  data-aos="fade-up" data-aos-duration="1000"
             key={project.id}
-            className="relative  border border-opacity-50 border-my-secondery rounded-lg overflow-hidden group" >
-            <img src={project.img} alt="project photo" className="w-full h-full group-hover:scale-110 transition-all duration-200 ease-in-out " />
+            className="relative  border border-opacity-50 border-my-secondery rounded-lg overflow-hidden group h-44 md:h-48 xl:h-56" >
+            <img src={project.img} alt="project photo" className=" w-full h-full group-hover:scale-110 transition-all duration-200 ease-in-out " />
             <div className="absolute top-0 flex flex-col gap-2 bg-my-primary bg-opacity-80 w-full h-full justify-center items-center px-3 sm:px-5 text-center">
               <h2 className="text-lg lg:text-xl 2xl:text-3xl font-medium text-my-secondery">{project.name}</h2>
               <p className="text-sm lg:text-base 2xl:text-lg text-white">{project.description}</p>
