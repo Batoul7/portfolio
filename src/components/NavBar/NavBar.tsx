@@ -37,15 +37,15 @@ export default function NavBar() {
     <>
     <nav className={`px-5 py-6 md:py-0
      bg-white dark:bg-my-primary text-my-primary dark:text-white  
-      ${isFixed ? 'fixed w-full top-0 z-50 transition-all duration-300 ease-in-out shadow-sm shadow-my-secondery' : 'relative'} `}>
+      ${isFixed ? 'fixed w-full top-0 z-50 transition-all duration-300 ease-in-out shadow-sm shadow-my-secondary' : 'relative'} `}>
         <div className='container mx-auto flex justify-between items-center '>
-        <h1 className='text-lg lg:text-2xl font-medium font-poppins '>BATOUL <span className='text-my-secondery'>ALIBRAHEM</span></h1>
+        <h1 className='text-lg lg:text-2xl font-medium font-poppins '>BATOUL <span className='text-my-secondary'>ALIBRAHEM</span></h1>
         <div className='hidden md:flex w-70 justify-between items-center'>
           <NavItems items={navItems} />
         </div>
-        <button className='md:hidden text-my-secondery dark:text-white'
+        <button aria-label='menu' className='md:hidden text-my-secondary dark:text-white'
         onClick={() => setActive(prev => !prev)}>
-           <FontAwesomeIcon icon={faBars} className='w-6 h-6 text-my-secondery'/>
+           <FontAwesomeIcon icon={faBars} className='w-6 h-6 text-my-secondary'/>
         </button>
         </div>
     </nav>
@@ -53,12 +53,12 @@ export default function NavBar() {
        ${active ? 'translate-x-0': 'translate-x-full'} fixed top-0 h-screen w-full
         bg-white dark:bg-my-primary text-my-primary dark:text-white z-50`}>
     <div className='absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 '>
-    <h1 className='text-center text-lg lg:text-2xl font-medium font-poppins mb-10'>BATOUL <span className='text-my-secondery'>ALIBRAHEM</span></h1>
+    <h1 className='text-center text-lg lg:text-2xl font-medium font-poppins mb-10'>BATOUL <span className='text-my-secondary'>ALIBRAHEM</span></h1>
     <NavItems items={navItems} />
     </div>
-    <button className='absolute top-5 left-0 translate-x-2/4'
+    <button aria-label='menu' className='absolute top-5 left-0 translate-x-2/4'
         onClick={() => setActive(prev => !prev)}>
-        <FontAwesomeIcon icon={faClose} className='w-6 h-6 text-my-secondery'/>
+        <FontAwesomeIcon icon={faClose} className='w-6 h-6 text-my-secondary'/>
     </button>
     </div>
     </>

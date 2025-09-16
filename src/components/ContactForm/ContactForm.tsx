@@ -46,7 +46,7 @@ const ContactForm: React.FC = () => {
         <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full" >
       {fields.map((field) => (
         <div key={field.id} className="">
-          <label htmlFor={field.id} className="block text-sm font-medium text-my-secondery mb-2">
+          <label htmlFor={field.id} className="block text-sm font-medium text-my-secondary mb-2">
             {field.label}
           </label>
           {field.type === "textarea" ? (
@@ -55,7 +55,7 @@ const ContactForm: React.FC = () => {
               value={formData[field.id as keyof FormDataType]}
               onChange={handleChange}
               placeholder={field.placeholder}
-              className="dark:bg-my-primary text-sm h-20 text-my-primary dark:text-white  block w-full p-2 border dark:border-opacity-35 border-my-secondery rounded-md outline-none caret-my-secondery "
+              className="dark:bg-my-primary text-sm h-20 text-my-primary dark:text-white  block w-full p-2 border dark:border-opacity-35 border-my-secondary rounded-md outline-none caret-my-secondary "
               required
             />
           ) : (
@@ -65,7 +65,7 @@ const ContactForm: React.FC = () => {
               value={formData[field.id as keyof FormDataType]} 
               onChange={handleChange}
               placeholder={field.placeholder}
-              className="dark:bg-my-primary text-sm text-my-primary dark:text-white block w-full p-2 border dark:border-opacity-35 border-my-secondery rounded-md outline-none caret-my-secondery"
+              className="dark:bg-my-primary text-sm text-my-primary dark:text-white block w-full p-2 border dark:border-opacity-35 border-my-secondary rounded-md outline-none caret-my-secondary"
               required
             />
           )}
@@ -74,7 +74,7 @@ const ContactForm: React.FC = () => {
       <button data-aos="flip-up"
         type="submit"
         className="py-1 px-4 rounded-lg text-base 2xl:text-lg font-medium font-poppins cursor-pointer
-                    flex gap-3 items-center w-fit justify-center mx-auto sm:mx-0 border dark:border-opacity-35 border-my-secondery  hover:bg-my-secondery" >
+                    flex gap-3 items-center w-fit justify-center mx-auto sm:mx-0 border dark:border-opacity-35 border-my-secondary  hover:bg-my-secondary" >
         Send Message
         <FontAwesomeIcon icon={faPaperPlane}/>
       </button>

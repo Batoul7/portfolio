@@ -31,11 +31,11 @@ export default function ScrollToTop() {
     }
 
     return (
-      <button
+      <button aria-label='ArrowUp'
         onClick={handleScrollToTop}
         className={`${showScrollTo ? "translate-x-0" : "translate-x-40"}
          w-10 h-10 2xl:w-14 2xl:h-14 cursor-pointer rounded-md transition-all duration-300 ease-in-out 
-         fixed bottom-5 right-5 z-40 bg-my-secondery flex justify-center items-center hover:scale-110`}
+         fixed bottom-5 right-5 z-40 bg-my-secondary flex justify-center items-center hover:scale-110`}
       >
         <FontAwesomeIcon icon={faArrowUp}/>
     </button>

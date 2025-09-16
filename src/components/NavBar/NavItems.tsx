@@ -30,7 +30,7 @@ const NavItems: React.FC<NavItemsProps> = ({ items }) => {
                     <li key={index} 
                     className={`flex items-center capitalize px-2 lg:px-3.5  md:py-8`}
                     onClick={() => activeLink(index)}>
-                      <a href={`${item.path}`} className={`text-lg lg:text-xl font-normal ${active === index ? 'text-my-secondery border-b border-my-secondery' : ''} `}>{item.name}</a></li>
+                      <a href={`${item.path}`} className={`text-lg lg:text-xl font-normal ${active === index ? 'text-my-secondary border-b border-my-secondary' : ''} `}>{item.name}</a></li>
                 )
             })}
             <DarkModeToggle/>

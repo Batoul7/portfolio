@@ -14,7 +14,7 @@ const PersonalSkills = () => {
 
   return (
     <div data-aos="fade-up" className="w-full sm:basis-1/2 border-t border-green-800 sm:border-t-0 pt-10">
-      <h2 className="text-xl sm:text-2xl font-medium font-poppins"><span className="text-my-secondery">Personal</span> Skills</h2>
+      <h2 className="text-xl sm:text-2xl font-medium font-poppins"><span className="text-my-secondary">Personal</span> Skills</h2>
       <div className="grid grid-cols-2 gap-6 mt-6">
         {ProSkillsData.map((skill, index) => (
           <div key={index} className="text-center">
@@ -30,7 +30,7 @@ const PersonalSkills = () => {
                   cy="18"
                 />
                 <circle
-                  className="text-my-secondery -rotate-90 "
+                  className="text-my-secondary -rotate-90 "
                   strokeWidth="3.8"
                   strokeDasharray={`${progress[index]}, 100`}
                   strokeLinecap="round"

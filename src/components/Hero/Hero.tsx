@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import me from '../../assets/me.webp'
+import me from '../../assets/me.png'
 import Modal from "../Modal/Modal";
 import { useEffect, useState } from "react";
 import { SocialLinks } from "../../Data/SocialLinks";
@@ -21,7 +21,7 @@ const Hero = () => {
         setModalOpen(false);
     };
 
-    const roles = ["Software Engineer", "Front End Developer"];
+    const roles = ["Software Engineer", "Full Stack Developer"];
   
     useEffect(() => {
         const handleTyping = () => {
@@ -50,24 +50,24 @@ const Hero = () => {
         <div className="container mx-auto flex flex-col-reverse sm:flex-row justify-between items-center gap-5 md:gap-8">
             <div data-aos="fade-right" className="hidden sm:flex flex-col gap-4 md:p-5 sm:pr-5">
                 {SocialLinks.map((link,index) => (
-                    <a key={index} href={link.path} className="text-2xl md:text-4xl hover:text-my-secondery hover:scale-110 transition-all duration-300"><FontAwesomeIcon icon={link.icon} /></a>
+                    <a key={index} href={link.path} className="text-2xl md:text-4xl hover:text-my-secondary hover:scale-110 transition-all duration-300"><FontAwesomeIcon icon={link.icon} /></a>
                 ))}
             </div>
             <div className=" w-full flex flex-col gap-4" data-aos="fade-up">
                 <div className="flex flex-col gap-1">
-                    <h1 className="text-2xl md:text-3xl xl:text-4xl font-poppins font-medium mt-3 md:mt-0">Hello, It’s <span className="text-my-secondery">BATOUL</span></h1>
-                    <h2 className="text-xl md:text-2xl font-poppins font-medium ">I’m a  <span className="text-my-secondery shadow-text">{text}</span></h2>
+                    <h1 className="text-2xl md:text-3xl xl:text-4xl font-poppins font-medium mt-3 md:mt-0">Hello, It’s <span className="text-my-secondary">BATOUL</span></h1>
+                    <h2 className="text-xl md:text-2xl font-poppins font-medium ">I’m a  <span className="text-my-secondary shadow-text">{text}</span></h2>
                     <p className="text-sm md:text-base xl:text-xl opacity-90 sm:w-full"> I have extensive experience in developing applications using React, which allows me to create interactive and dynamic interfaces. </p>  
                 </div>
                <div className="flex gap-5">
-                <button onClick={handleOpenModal} className="py-1 px-4 bg-my-secondery rounded-lg text-base md:text-lg font-medium font-poppins shadow-btnshadow">Hire me!</button>
-                <a href="#contact" className="py-1 px-4 shadow-btnshadow rounded-lg text-base md:text-lg font-medium font-poppins hover:bg-my-secondery">Contact</a>
+                <button onClick={handleOpenModal} className="py-1 px-4 bg-my-secondary rounded-lg text-base md:text-lg font-medium font-poppins shadow-btnshadow">Hire me!</button>
+                <a href="#contact" className="py-1 px-4 shadow-btnshadow rounded-lg text-base md:text-lg font-medium font-poppins hover:bg-my-secondary">Contact</a>
                </div>   
             </div>
             <div className="flex w-full justify-start gap-12 items-center">
                 <div data-aos="fade-right" className="flex sm:hidden flex-col gap-3 md:p-5  ">
                     {SocialLinks.map((link,index) => (
-                        <a key={index} href={link.path} className="text-2xl sm:text-3xl lg:text-4xl hover:text-my-secondery hover:scale-110 transition-all duration-300"><FontAwesomeIcon icon={link.icon} /></a>
+                        <a key={index} href={link.path} className="text-2xl sm:text-3xl lg:text-4xl hover:text-my-secondary hover:scale-110 transition-all duration-300"><FontAwesomeIcon icon={link.icon} /></a>
                     ))}
                 </div>
                 <div data-aos="fade-left" className="sm:flex-1 lg:flex-0 flex justify-center items-center  h-full ">

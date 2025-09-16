@@ -1,10 +1,10 @@
 import { faDownload} from '@fortawesome/free-solid-svg-icons'
-import me from '../../assets/me.webp' 
+import me from '../../assets/me.png' 
 import Title from '../Title/Title'
 import Box from '../Box/Box'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BoxData } from '../../Data/BoxData'
-import cv from "/src/assets/BATOUL ALIBRAHEM.pdf"
+import cv from "/src/assets/Batoul_Alibrahim_resume.pdf"
 
 const About = () => {
 
@@ -24,7 +24,7 @@ const About = () => {
                 </p>
                 <a  data-aos="fade-up"  href={cv} download="batoul_Alibraheem.pdf"
                   className="py-1 px-4 shadow-btnshadow rounded-lg text-base md:text-lg font-medium font-poppins cursor-pointer
-                            flex gap-3 items-center w-fit justify-center mx-auto sm:mx-0 hover:bg-my-secondery">
+                            flex gap-3 items-center w-fit justify-center mx-auto sm:mx-0 hover:bg-my-secondary">
                   Download CV
                   <FontAwesomeIcon icon={faDownload}/>
                 </a>

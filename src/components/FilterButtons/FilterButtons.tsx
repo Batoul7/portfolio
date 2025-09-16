@@ -13,8 +13,8 @@ export default function FilterButtons() {
         key={type}
         onClick={() => setFilter(type)}
         className={`py-1 px-3 shadow-btnshadow rounded-lg text-base md:text-lg font-medium font-poppins 
-                        flex gap-3 items-center justify-center hover:bg-my-secondery 
-                         ${ filter === type && "bg-my-secondery text-white hover:bg-my-secondery"}`} >
+                        flex gap-3 items-center justify-center hover:bg-my-secondary 
+                         ${ filter === type && "bg-my-secondary text-white hover:bg-my-secondary"}`} >
         {type === "" ? "ALL" : type.toUpperCase()}
       </button>
     ))}

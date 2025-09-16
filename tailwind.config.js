@@ -6,9 +6,9 @@ export default {
     extend: {
       colors: {
         "my-primary" : "#090F08",
-        "my-secondery" : "#0FD844",
+        "my-secondary" : "#703BF7",
         "my-primary-dark" : "#141414",
-        "preloader" : "linear-gradient(50%,#0FD844,100%, #090F08)" 
+        "preloader" : "linear-gradient(50%,#BAA2F7,100%, #090F08)" 
       },
       padding: {
         "main-padding" : "50px 20px"
@@ -20,8 +20,8 @@ export default {
         "poppins" : '"Poppins", serif',
       },
       boxShadow: {
-        "myshadow" : "1px 1px 15px 5px #0FD844",
-        "btnshadow" : "0px 0px 8px 1px #0FD844"
+        "myshadow" : "1px 1px 15px 5px #BAA2F7",
+        "btnshadow" : "0px 0px 8px 1px #BAA2F7"
       },
       animation: {
         spinSlow: 'spin 1.5s linear infinite',

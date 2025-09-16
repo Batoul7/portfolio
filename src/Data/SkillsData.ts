@@ -4,6 +4,7 @@ export const TechSkillsData = [
     { name: "CSS", percentage: 90 },
     { name: "JavaScript", percentage: 80 },
     { name: "React", percentage: 85 },
+    { name: "Node", percentage: 60 },
   ];
 
 
