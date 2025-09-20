@@ -21,6 +21,12 @@ interface TimelineItem {
       year: "2024",
       title: "Internship",
       description:
-        "Engaged in hands-on experience as a software development intern at Focal X Company, working on real-world projects involving web application design and improving user experience",
+        "Gained advanced front-end training as a software development intern at Focal X Company, focusing on React to design web applications and enhance user experience through real-world projects.",
+    },
+    {
+      year: "2025",
+      title: "Internship",
+      description:
+        "Gained hands-on experience as a software development intern at Focal X Company, focusing on back-end development with Node.js, working on real-world projects to enhance web application functionality and performance.",
     },
   ];

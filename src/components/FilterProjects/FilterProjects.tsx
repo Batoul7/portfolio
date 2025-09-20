@@ -26,8 +26,8 @@ const FilterProjects: React.FC = () => {
               <h2 className="text-lg lg:text-xl 2xl:text-3xl font-medium text-my-secondary">{project.name}</h2>
               <p className="text-sm lg:text-base 2xl:text-lg text-white">{project.description}</p>
               <div className="flex gap-3 items-center text-lg lg:text-xl 2xl:text-2xl">
-                <a href={project.demo} className="hover:scale-110 text-white hover:text-my-secondary"><FontAwesomeIcon icon={faLink} /></a>
-                <a href={project.code} className="hover:scale-110 text-white hover:text-my-secondary"><FontAwesomeIcon icon={faGithub} /></a>
+                {project.demo && (<a href={project.demo} className="hover:scale-110 text-white hover:text-my-secondary"><FontAwesomeIcon icon={faLink} /></a>)}
+                {project.code && (<a href={project.code} className="hover:scale-110 text-white hover:text-my-secondary"><FontAwesomeIcon icon={faGithub} /></a>)}
               </div>
             </div>
           </div>

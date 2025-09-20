@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import me from '../../assets/me.png'
+import me from '../../assets/me.webp'
 import Modal from "../Modal/Modal";
 import { useEffect, useState } from "react";
 import { SocialLinks } from "../../Data/SocialLinks";
@@ -21,7 +21,7 @@ const Hero = () => {
         setModalOpen(false);
     };
 
-    const roles = ["Software Engineer", "Full Stack Developer"];
+    const roles = ["Software Engineer", "Front End Developer"];
   
     useEffect(() => {
         const handleTyping = () => {

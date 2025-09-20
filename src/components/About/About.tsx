@@ -1,10 +1,10 @@
 import { faDownload} from '@fortawesome/free-solid-svg-icons'
-import me from '../../assets/me.png' 
+import me from '../../assets/me.webp' 
 import Title from '../Title/Title'
 import Box from '../Box/Box'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BoxData } from '../../Data/BoxData'
-import cv from "/src/assets/Batoul_Alibrahim_resume.pdf"
+import cv from "/src/assets/Batoul_Alibraheem_resume.pdf"
 
 const About = () => {
 

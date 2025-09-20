@@ -7,8 +7,9 @@ import medicano from '../assets/projects/m1.webp'
 import blog from '../assets/projects/task6-blog-dark.webp'
 import AIBlog from "../assets/projects/grad-blog.webp"
 import tours from "../assets/projects/tours1.webp"
-
-
+import haz from '../assets/projects/Haz.png'
+import delivery from '../assets/projects/delivery.png'
+import social from '../assets/projects/social.png'
 
 export type Project = {
     id: number;
@@ -16,8 +17,8 @@ export type Project = {
     name: string;
     type: string; 
     description: string;
-    demo:string;
-    code:string;
+    demo?:string;
+    code?:string;
   };
   
   export const projects: Project[] = [
@@ -101,6 +102,30 @@ export type Project = {
         description: 'Tours Website using Next.js, TypeScript and TailwindCss' ,
         demo:"https://github.com/Batoul7/task7-tours",
         code:"https://github.com/Batoul7/task7-tours",
+    },
+    { 
+        id: 10, 
+        img:haz, 
+        name: 'Haz', 
+        type: 'react', 
+        description: 'Haz Website using React.js, React Query, TypeScript and TailwindCss' ,
+        demo:"https://haz.ae/",
+    },
+    { 
+        id: 11, 
+        img:delivery, 
+        name: 'Delivery System', 
+        type: 'node', 
+        description: 'The backend is built using Node.js, Express, and MongoDB with JWT-based authentication to secure the routes.' ,
+        code:"https://github.com/Batoul7/delivery-system",
+    },
+        { 
+        id: 12, 
+        img:social, 
+        name: 'Social Media Platform', 
+        type: 'node', 
+        description: 'This project aims to build a secure API for a social media platform, focusing on authentication and core social media functionalities.' ,
+        code:"https://github.com/Batoul7/Social-Media-Platform-API",
     },
   ];
   
